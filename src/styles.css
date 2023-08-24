@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/*font-family: 'Poppins', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 5.5rem auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+.text-box{
+    margin-bottom: 5rem;
+}
+
+.title_1, .title_2, .card_title{
+    color: hsl(234, 12%, 34%);
+}
+
+.title_3, .card_description{
+    color: hsl(229, 6%, 66%);
+}
+
+.title_1{
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+.title_2{
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.title_3{
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: -0.7px;
+    padding: 1rem 0.7rem 0rem;
+    max-width: 550px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: left;
+}
+
+.card_1, .card_2, .card_3, .card_4{
+    padding: 1.7rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    margin: 0rem 1rem;
+    max-width: 350px;
+    box-shadow: 5px 10px 20px 5px hsla(0, 0%, 51%, 0.281);
+}
+
+
+/*margin-bottom is used separated for each
+card because .card_2 and .card_3 are in the same div*/
+
+.card_1{
+    border-top: solid hsl(180, 62%, 55%) 4px;
+    margin-bottom: 1.5rem;
+}
+
+.card_2{
+    border-top: solid hsl(0, 78%, 62%) 4px;
+    margin-bottom: 1.5rem;
+
+}
+
+.card_3{
+    border-top: solid hsl(34, 97%, 64%) 4px;
+    margin-bottom: 1.5rem;
+}
+
+.card_4{
+    border-top: solid hsl(212, 86%, 64%) 4px;
+}
+
+.card_title{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.card_description{
+    margin-top: 0.3rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+    letter-spacing: 0.6px;
+    line-height: 23px;
+    margin-bottom: 2.2rem;
+}
+
+.card_icon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_icon img{
+    width: 3.8rem;
+}
+
+@media screen and (min-width: 800px){
+    html{
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5.3rem auto;
+    }
+
+    .text-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .title_1{
+        font-size: 2.3rem;
+        letter-spacing: 0.7px;
+    }
+    
+    .title_2{
+        font-size: 2.3rem;
+        letter-spacing: 1px;
+    }
+    
+    .title_3{
+        font-size: 1.1rem;
+        letter-spacing: -0.7px;
+        padding: 1rem 0rem 0rem;
+        
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+    }
+
+    .card_1, .card_2, .card_3, .card_4{
+        margin: 1.6rem 1rem;
+        padding: 2.1rem;
+    }
+
+    /*just soft aligning elements inside 
+    .card_container_center by adding
+    margin-bottom on .card_2*/
+    .card_2{
+        margin-bottom: 2.4rem;
+    }
+
+    .card_icon img{
+        width: 4.3rem;
+    }
+
+}
