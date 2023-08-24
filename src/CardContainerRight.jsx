@@ -1,3 +1,4 @@
+import icon_calculator from "./images/icon-calculator.svg";
 
 export function CardContainerRight() {
   return (
@@ -10,7 +11,7 @@ export function CardContainerRight() {
 					Uses data from past projects to provide better delivery estimates
 				</p>
 				<div class="card_icon">
-					<img src="src/images/icon-calculator.svg" alt="computer monitor" />
+					<img src={icon_calculator} alt="computer monitor" />
 				</div>
 			</div>
 		</div>

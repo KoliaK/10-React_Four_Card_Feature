@@ -1,3 +1,4 @@
+import icon_supervisor from "./images/icon-supervisor.svg";
 
 export function CardContainerLeft() {
   return (
@@ -10,7 +11,7 @@ export function CardContainerLeft() {
           Monitors activity to identify project roadblocks
         </p>
         <div class="card_icon">
-          <img src="src/images/icon-supervisor.svg" alt="magnifying glass" />
+          <img src={icon_supervisor} alt="magnifying glass" />
         </div>
       </div>
     </div>

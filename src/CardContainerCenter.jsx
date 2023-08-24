@@ -1,3 +1,6 @@
+import icon_team_builder from "./images/icon-team-builder.svg";
+import icon_karma from "./images/icon-karma.svg";
+
 
 export function CardContainerCenter(){
   return (
@@ -8,7 +11,7 @@ export function CardContainerCenter(){
 					Scans our talent network to create the optimal team for your project
 				</p>
 				<div class="card_icon">
-					<img src="src/images/icon-team-builder.svg" alt="small house" />
+					<img src={icon_team_builder} alt="small house" />
 				</div>
 			</div>
 	
@@ -20,7 +23,7 @@ export function CardContainerCenter(){
 					Regularly evaluates our talent to ensure quality
 				</p>
 				<div class="card_icon">
-					<img src="src/images/icon-karma.svg" alt="light bulb" />
+					<img src={icon_karma} alt="light bulb" />
 				</div>
 			</div>
 		</div>
