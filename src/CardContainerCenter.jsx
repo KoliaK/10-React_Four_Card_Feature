@@ -8,7 +8,7 @@ export function CardContainerCenter(){
 					Scans our talent network to create the optimal team for your project
 				</p>
 				<div class="card_icon">
-					<img src="src/assets/icon-team-builder.svg" alt="small house" />
+					<img src="src/images/icon-team-builder.svg" alt="small house" />
 				</div>
 			</div>
 	
@@ -20,7 +20,7 @@ export function CardContainerCenter(){
 					Regularly evaluates our talent to ensure quality
 				</p>
 				<div class="card_icon">
-					<img src="src/assets/icon-karma.svg" alt="light bulb" />
+					<img src="src/images/icon-karma.svg" alt="light bulb" />
 				</div>
 			</div>
 		</div>

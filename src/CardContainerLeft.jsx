@@ -10,7 +10,7 @@ export function CardContainerLeft() {
           Monitors activity to identify project roadblocks
         </p>
         <div class="card_icon">
-          <img src="src/assets/icon-supervisor.svg" alt="magnifying glass" />
+          <img src="src/images/icon-supervisor.svg" alt="magnifying glass" />
         </div>
       </div>
     </div>

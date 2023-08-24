@@ -10,7 +10,7 @@ export function CardContainerRight() {
 					Uses data from past projects to provide better delivery estimates
 				</p>
 				<div class="card_icon">
-					<img src="src/assets/icon-calculator.svg" alt="computer monitor" />
+					<img src="src/images/icon-calculator.svg" alt="computer monitor" />
 				</div>
 			</div>
 		</div>
